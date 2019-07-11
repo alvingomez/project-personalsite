@@ -3,6 +3,13 @@
     background-color: #293D5A;          
 }
 
+.title-underline {
+    width: 200px;
+    height: 5px;
+    background-color: #64FFDA;
+    margin: 0 auto;
+}
+
 .height {
     min-height: 100vh;
 }
@@ -24,7 +31,7 @@
 }
 
 .text-color {
-    color:  rgb(100, 255, 218) !important;
+    color:  #64FFDA !important;
 }
 
 
@@ -34,4 +41,8 @@ h1{
 
 h2 {
     color: whitesmoke
+}
+
+.about-bg {
+    background-color:#0A192F;
 }
