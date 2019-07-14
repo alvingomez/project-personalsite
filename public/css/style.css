@@ -3,7 +3,14 @@
     background-color: #293D5A;          
 }
 
-.height {
+.title-underline {
+    width: 200px;
+    height: 5px;
+    background-color: #64FFDA;
+    margin: 0 auto;
+}
+
+.height-100 {
     min-height: 100vh;
 }
 
@@ -24,7 +31,7 @@
 }
 
 .text-color {
-    color:  rgb(100, 255, 218) !important;
+    color:  #64FFDA !important;
 }
 
 
@@ -34,4 +41,27 @@ h1{
 
 h2 {
     color: whitesmoke
+}
+
+.about-bg {
+    background-color:#0A192F;
+}
+
+.about-background {
+    /*background: url(../images/about-picture.jpg);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+#img-about{
+    display: block;
+    widows: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 50%;
+    position: relative;
+    
 }
