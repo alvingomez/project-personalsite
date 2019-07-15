@@ -108,7 +108,7 @@
           <h3 class="display-4 text-uppercase text-white mt-5">
             <strong>Gallery</strong>
           </h3>
-          <div class="title-underline "></div>                   
+          <div class="title-underline mb-3"></div>                   
         </div>  
     </div>
     <!--end of carousel title-->
@@ -116,8 +116,43 @@
     <div class="row">
       <div class="col-md-8 mx-auto text-center">
         <div id="carousel-img" class="carousel slide" data-ride="carousel">
-          
-        </div>
+        <!--indicators-->
+        <ul class="carousel-indicators">
+          <li data-target="#carousel-img" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-img" data-slide-to="1"></li>
+          <li data-target="#carousel-img" data-slide-to="2"></li>
+          <li data-target="#carousel-img" data-slide-to="3"></li>
+          <li data-target="#carousel-img" data-slide-to="4"></li>
+        </ul>
+        <!--end of indictors-->
+        <!--images-->
+        <div class="carousel-inner">
+          <div class="carousel-item active"> 
+            <img src="./images/carousel-1.jpg" alt="images" class="d-block  w-100">            
+          </div>
+          <div class="carousel-item"> 
+            <img src="./images/carousel2.jpg" alt="images" class="d-block  w-100">
+          </div>
+          <div class="carousel-item"> 
+            <img src="./images/carousel3jpg" alt="images" class="d-block  w-100">
+          </div>
+          <div class="carousel-item"> 
+            <img src="./images/carousel4.jpg" alt="images" class="d-block  w-100">
+          </div>          
+          <div class="carousel-item"> 
+            <img src="./images/carousel5.jpg" alt="images" class="d-block  w-100">
+          </div>
+        </div>        
+      <!--end of images-->
+      <!--controls-->
+      <a href="#carousel-img" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-img" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+      <!--end of controls-->
       </div>
     </div>
     <!--end of carousel slide-->
@@ -125,7 +160,6 @@
     <!--end of carousel container-->
   </section>
   <!--end of carousel section-->
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
