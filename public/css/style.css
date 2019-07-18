@@ -18,13 +18,13 @@
     background-color: #0A192F;
 }
 
-/*.header-image {
-    background: url(../images/cool-background.png); 
+.projects-bg {
+    background: url(../images/light_project.jpg); 
     background-size: cover;
     background-position: center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed; 
-} */
+} 
 
 .height-80 {
     min-height: 80vh;
