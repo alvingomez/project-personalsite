@@ -78,3 +78,47 @@ h2 {
 .btn-color {
     background-color: #64FFDA;
 }
+
+.img-carousel1{
+    display: block;
+    width: 560px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    position: relative;    
+}
+
+.img-carousel2{
+    display: block;
+    width: 396px;
+    height: 628px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    position: relative;    
+}
+
+.img-carousel3{
+    display: block;
+    width: 540px;
+    height: 533px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    position: relative;    
+}
+
+.img-carousel5{
+    display: block;
+    width: 548px;
+    height: 436px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    position: relative;    
+}
